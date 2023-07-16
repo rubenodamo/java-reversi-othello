@@ -21,21 +21,15 @@ public class ReversiMain
 
 	ReversiMain()
 	{
-		// Choose ONE of the models
+		// model
 		model = new SimpleModel();
-		//model = new SimpleTestModel();
 		
-		// Choose ONE of the views
-		//view = new TextView();
-		//view = new FakeTextView();
+		// view
 		view = new GUIView(); // You need to implement this one yourself!
 		
-		// Choose one controller
-		//controller = new SimpleController();
-		controller = new ReversiController(); // You need to implement this one yourself!
-		
-		// Don't change the lines below here, which connect things together
-		
+		// controller
+		controller = new ReversiController();
+
 		// Initialise everything...
 		model.initialise(8, 8, view, controller);
 		controller.initialise(model, view);
