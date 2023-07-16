@@ -25,7 +25,7 @@ public class ReversiMain
 		model = new SimpleModel();
 		
 		// view
-		view = new GUIView(); // You need to implement this one yourself!
+		view = new GUIView();
 		
 		// controller
 		controller = new ReversiController();
