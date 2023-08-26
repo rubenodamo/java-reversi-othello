@@ -18,3 +18,9 @@ The Reversi/Othello Game project is a Java-based implementation of the classic R
 
 7. **Visual Representation**: The final program visually resembles the Reversi/Othello game board, starting with an initial configuration of pieces, and updates the board as players make moves. The aesthetics of the interface are also reminiscent of the classic Reversi board game.
 
+
+<p align="center">
+  <img src="https://github.com/rubenodamo/java-reversi-othello/assets/93412774/e32fae5e-38ca-4132-a655-bf214576e385">
+</p>
+
+
