@@ -22,7 +22,7 @@ The Reversi/Othello Game project is a Java-based implementation of the classic R
 <p align="center">
   <figure>
     <img src="https://github.com/rubenodamo/java-reversi-othello/assets/93412774/e32fae5e-38ca-4132-a655-bf214576e385">
-    <figcaption align="center">Example Initial Board State</figcaption>
+    <figcaption>Example Initial Board State</figcaption>
   </figure>
 </p>
 
