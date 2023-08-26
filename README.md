@@ -4,19 +4,19 @@ The Reversi/Othello Game project is a Java-based implementation of the classic R
 
 ## Key Features
 
-1. **MVC Architecture**: The program is organized into Model, View, and Controller components to ensure modularity and facilitate testing. The codebase introduces essential classes such as `GUIView` (derived from `IView`) for a user-friendly graphical interface and `ReversiController` (extending `IController`) for gameplay control.
+- **MVC Architecture**: The program is organized into Model, View, and Controller components to ensure modularity and facilitate testing. The codebase introduces essential classes such as `GUIView` (derived from `IView`) for a user-friendly graphical interface and `ReversiController` (extending `IController`) for gameplay control. The MVC structure also allows for versatile game design, with various controller and view classes being able to be substituted for one another.
 
-2. **Controller and View Class**: Developed a `ReversiController` class that extends `IController` for controlling the game. Implemented a `GUIView` class that extends `IView` for the graphical user interface. It interacts with the rest of the program through `IView` methods only.
+- **Controller and View Class**: Developed a `ReversiController` class that extends `IController` for controlling the game. Implemented a `GUIView` class that extends `IView` for the graphical user interface. It interacts with the rest of the program through `IView` methods only.
 
-3. **Utilization of Standard Swing/AWT**: Utilized standard Swing/awt GUI classes for creating the user interface. The provided classes and custom subclasses of Swing classes are employed to design the GUI elements.
+- **Utilization of Standard Swing/AWT**: Utilized standard Swing/awt GUI classes for creating the user interface. The provided classes and custom subclasses of Swing classes are employed to design the GUI elements.
 
-4. **Piece Color Handling**: The program automatically changes the color of pieces that are captured during the game, adhering to the game's rules.
+- **Piece Color Handling**: The program automatically changes the color of pieces that are captured during the game, adhering to the game's rules.
 
-5. **Win Detection**: Implemented win detection functionality to identify the player who wins the game. The winner is determined based on the count of pieces of each color on the board.
+- **Win Detection**: Implemented win detection functionality to identify the player who wins the game. The winner is determined based on the count of pieces of each color on the board.
 
-6. **Greedy AI Function**:  Included a simple 'greedy' AI for single-player mode. The AI makes decisions based on maximizing its piece count and capturing opponent pieces.
+- **Greedy AI Function**:  Included a simple 'greedy' AI for single-player mode. The AI makes decisions based on maximizing its piece count and capturing opponent pieces.
 
-7. **Visual Representation**: The final program visually resembles the Reversi/Othello game board, starting with an initial configuration of pieces, and updates the board as players make moves. The aesthetics of the interface are also reminiscent of the classic Reversi board game.
+- **Visual Representation**: The final program visually resembles the Reversi/Othello game board, starting with an initial configuration of pieces, and updates the board as players make moves. The aesthetics of the interface are also reminiscent of the classic Reversi board game.
 
 
 <p align="center">
